@@ -133,7 +133,7 @@ const io = socketio(server , {
 
 })
 
-const dbURI = 'deleted due sectuirty issues, fetch the URI from mongoDB'
+const dbURI = 'deleted due seurity issues, fetch the URI from mongoDB'
 
 mongoose.connect(dbURI)
 .then((res) => {
