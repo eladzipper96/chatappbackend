@@ -133,7 +133,7 @@ const io = socketio(server , {
 
 })
 
-const dbURI = 'mongodb+srv://invoiceuser:vmr2ds@cluster0.o7xdh.mongodb.net/chatapp?retryWrites=true&w=majority'
+const dbURI = 'mongodb+srv://invoiceuser:vom8G6yxQGF91XMu@cluster0.o7xdh.mongodb.net/chatapp?retryWrites=true&w=majority'
 
 mongoose.connect(dbURI)
 .then((res) => {
